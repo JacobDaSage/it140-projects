@@ -57,7 +57,7 @@ Before submitting, compare this storyboard with `game_map.drawio`.
 * [x] The villain room has no item.
 * [x] Every room except the start room and villain room contains one item.
 * [x] Room, item, and villain names match my map.
-* [] The map allows the player to collect all required items before the
+* [x] The map allows the player to collect all required items before the
   villain is encountered.
 
 ## Project Two Handoff
