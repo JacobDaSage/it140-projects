@@ -9,25 +9,25 @@
 
 START get_item
 
-    # TODO 1: Identify the information the get-item process needs.
-    # Consider the current room, item in that room, and player's inventory.
+SET currentRoom = "Hidden Leaf Village"
+SET inventory = empty list
 
-    # TODO 2: Prompt for and receive the player's get-item command.
+WHILE game is running
+    SET roomItem = item in currentRoom
+    OUTPUT "You are in " + currentRoom
+    OUTPUT "Enter the item you want to collect:"
+    INPUT requestedItem
 
-    # TODO 3: Validate whether the requested item is available in the current
-    # room. Show the decision clearly.
-
-    # TODO 4: Describe what happens when the item request is valid.
-    # Include the inventory update and player output.
-
-    # TODO 5: Describe what happens when the item request is invalid.
-    # Include the output the player should receive.
-
-    # TODO 6: Show how the process returns to or continues the larger gameplay
-    # loop after the command is handled.
+    IF requestedItem = roomItem AND roomItem is not empty THEN
+        IF requestedItem is not in inventory THEN
+            ADD requestedItem to inventory
+            SET roomItem = empty
+        ELSE
+            OUTPUT "You already have that item."
+        END IF
+    ELSE
+        OUTPUT "That item is not in this room."
+    END IF
+END WHILE
 
 END get_item
-
-
-# References
-
