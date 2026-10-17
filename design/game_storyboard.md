@@ -7,25 +7,24 @@
 
 **Theme:**
 
-TODO: Name and briefly describe your game's theme.
+Anime Adventure: Battle of the Dimensions. A text-based adventure where the player travels through different anime worlds to collect powerful items
 
 **Storyline:**
 
-TODO: In one short paragraph, explain the setting, the player's goal, the items
-the player must gather, and the threat created by the villain.
+The player starts in the Hidden Leaf Village and travels through different anime worlds to collect six powerful items. The goal is to collect all six items before facing Madara Uchiha in the Final Battlefield. If the player enters the villain's room before collecting every item, they lose the game.
 
 ## Rooms
 
 Project One requires a minimum of eight rooms.
 
-1. TODO: Start room
-2. TODO: Room
-3. TODO: Room
-4. TODO: Room
-5. TODO: Room
-6. TODO: Room
-7. TODO: Room
-8. TODO: Villain room
+1. Hidden Leaf Village (Start Room)
+2. Ninja Training Grounds
+3. Soul Society
+4. Marine Headquarters
+5. Titan Forest
+6. Demon Slayer Village
+7. Dragon Ball Arena
+8. Final Battlefield (Villain Room)
 
 Add more rooms if your design needs them.
 
@@ -34,29 +33,29 @@ Add more rooms if your design needs them.
 With the minimum eight-room design, Project One requires at least six items.
 Every room except the start room and villain room must contain one item.
 
-1. TODO: Item
-2. TODO: Item
-3. TODO: Item
-4. TODO: Item
-5. TODO: Item
-6. TODO: Item
+1. Ninja Headband
+2. Zanpakuto Sword
+3. Devil Fruit
+4. ODM Gear
+5. Nichirin Sword
+6. Dragon Ball
 
 If you add rooms beyond the minimum, add an item for every additional room
 except the start room and villain room.
 
 ## Villain
 
-TODO: Identify and briefly describe the villain.
+The villain is the Shadow Emperor, a powerful warrior who has stolen abilities from different anime worlds. He waits in the Final Battlefield and tries to stop the player from collecting all six legendary items. The player must collect every item before entering his room to defeat him and save the anime worlds.
 
 ## Storyboard and Map Check
 
 Before submitting, compare this storyboard with `game_map.drawio`.
 
-* [ ] I included eight (8) rooms.
-* [ ] I included six (6) collectable items.
-* [ ] The start room has no item.
-* [ ] The villain room has no item.
-* [ ] Every room except the start room and villain room contains one item.
+* [x] I included eight (8) rooms.
+* [x] I included six (6) collectable items.
+* [x] The start room has no item.
+* [x] The villain room has no item.
+* [x] Every room except the start room and villain room contains one item.
 * [ ] Room, item, and villain names match my map.
 * [ ] The map allows the player to collect all required items before the
   villain is encountered.
