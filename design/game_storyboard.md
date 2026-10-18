@@ -11,7 +11,7 @@ Anime Adventure: Battle of the Dimensions. A text-based adventure where the play
 
 **Storyline:**
 
-The player starts in the Hidden Leaf Village and travels through different anime worlds to collect six powerful items. The goal is to collect all six items before facing Madara Uchiha in the Final Battlefield. If the player enters the villain's room before collecting every item, they lose the game.
+The player starts in the Hidden Leaf Village and travels through different anime worlds to collect six powerful items. The goal is to collect all six items before facing Shadow Emperor in the Final Battlefield. If the player enters the villain's room before collecting every item, they lose the game.
 
 ## Rooms
 
