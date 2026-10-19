@@ -7,19 +7,23 @@
 # Write pseudocode, not Python code. Use clear indentation and course-appropriate
 # keywords such as INPUT, OUTPUT, IF, ELSE, WHILE, SET, or similar terms.
 
-# TODO 1: Identify the information the movement process needs.
+SET current_room = "Hidden Leaf Village"
+SET game_is_running = TRUE
+SET direction = "
 # Consider the player's current room and movement command.
 
-# TODO 2: Prompt for and receive the player's movement command.
+WHILE game_is_running = TRUE
+  OUTPUT "Enter a direction (north, south, east, west, quit):" 
+INPUT direction
+   IF direction = "quit" THEN
+    SET game_is_running = FALSE
 
-# TODO 3: Validate whether the requested movement is possible from the
-# current room. Show the decision clearly.
-
-# TODO 4: Describe what happens when the movement command is valid.
-# Include the room update and player output.
-
-# TODO 5: Describe what happens when the movement command is invalid.
-# Include the output the player should receive.
-
-# TODO 6: Show how movement fits into repeated gameplay.
-# The final game continues accepting commands until a required ending occurs.
+  ELSE IF direction is a valid exit from current_room THEN
+    SET next_room = room connected in that direction
+    SET current_room = next_room
+    OUTPUT "You have entered " + current_room
+  ELSE
+    SET next_room = current_room
+    OUTPUT "Invalid direction. Try again."
+  END IF
+END WHILE
